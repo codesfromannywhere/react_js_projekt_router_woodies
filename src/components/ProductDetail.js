@@ -7,7 +7,7 @@ const ProductDetail = () => {
 
     return (
         <section>
-            <h1>{productData[productParams.detail].productname}</h1>
+            <h3>{productData[productParams.detail].productname}</h3>
             <p>{productData[productParams.detail].content}</p>
             <img src={productData[productParams.detail].img} />
         </section>

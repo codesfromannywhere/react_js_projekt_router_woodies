@@ -18,11 +18,24 @@ body {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 /* ============ 
             HEADER ============*/
 
 header {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 header nav a {
@@ -30,7 +43,21 @@ header nav a {
 }
 
 /* ============ 
-            Main ============*/
+            HOME ============*/
+.home-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-section div:nth-of-type(2) {
+  background-color: #F9BDBD;
+  display: flex;
+  justify-content: right;
+  width: 30%;
+}
+
+/* ============ 
+            PRODUCTS ============*/
 
 .product-grid {
   display: flex;
@@ -42,5 +69,28 @@ header nav a {
   border-radius: 4px;
   border: none;
   padding: 14px 24px;
+}
 
+
+/* ============ 
+            ABOUT US ============*/
+
+.hey {
+  display: flex;
+}
+
+hr {
+  width: 30%;
+}
+
+
+
+/* ============ 
+            FOOTER ============*/
+
+.footer-section {
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
