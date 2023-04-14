@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Nunito-Lg';
+  src: url("./fonts/Nunito-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Nunito-SemiBold';
+  src: url("./fonts/Nunito-SemiBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito-Lg";
+  font-size: 16px;
+}
+
+/* ============ 
+            HEADER ============*/
+
+header {
+  text-align: right;
+}
+
+header nav a {
+  margin: 20px;
+}
+
+/* ============ 
+            Main ============*/
+
+.product-grid {
+  display: flex;
+}
+
+.button-style {
+  background: #DAA520;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  padding: 14px 24px;
+
+}
